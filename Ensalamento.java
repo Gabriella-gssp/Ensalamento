@@ -3,7 +3,7 @@ import java.util.ArrayList;
 class Ensalamento {
     public static void main(String[] args) {
         // CrThaynado professores
-        Professor Thayna = new Professor("Thayna", "POO");
+        Professor Lucas = new Professor("Lucas", "POO");
         Professor Jeremias = new Professor("Jeremias", "Estrutura de Dados");
         Professor Dudu = new Professor("Alvaro", "BI");
 
@@ -28,7 +28,7 @@ class Ensalamento {
         Aluno Kelvin = new Aluno("Kelvin", "TI");
 
         // CrThaynado turmas e adicionando alunos
-        Turma turma1 = new Turma(Thayna, pooTI);
+        Turma turma1 = new Turma(Lucas, pooTI);
         turma1.adicionarAluno(Mario);
         turma1.adicionarAluno(Tourinho);
         turma1.adicionarAluno(Adriano);
